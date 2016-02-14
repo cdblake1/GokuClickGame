@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gokuclickgame.MainActivity" >
+
+    <ImageView
+        android:id="@+id/glow_L"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleY="1.3"
+        android:src="@drawable/super_glow_l" />
+
+    <ImageView
+        android:id="@+id/glow_R"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingBottom="20dp"
+        android:scaleY="1.3"
+        android:src="@drawable/super_glow_r" />
+
+    <ImageView
+        android:id="@+id/goku_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Goku level 1"
+        android:scaleX=".75"
+        android:scaleY=".75"
+        android:src="@drawable/goku_n_1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/cd_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</FrameLayout>
